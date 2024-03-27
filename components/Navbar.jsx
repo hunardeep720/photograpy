@@ -50,7 +50,7 @@ function Navbar() {
                 }
             </div>
             <div className={open? ('sm:hidden absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-end items-center w-44 h-screen bg-black text-center ease-in duration-300 z-[18]'):('sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex flex-col justify-end items-center w-44 h-screen bg-black text-center ease-in duration-300 z-[18]')}>
-                {open? (<AiOutlineClose size={28} className='mb-[20rem] ml-20' onClick={handleOpen} />): (null)}
+                {open? (<AiOutlineClose size={28} className='mb-[26rem] ml-20' onClick={handleOpen} />): (null)}
             <ul  className='mb-[12rem] mt-[-12rem]'>
                 <li className='p-4 text-4xl hover:text-gray-500'>
                     <Link href='/'>Home</Link>
