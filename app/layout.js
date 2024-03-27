@@ -24,7 +24,6 @@ export default function RootLayout({ children }) {
         <main>
           <Navbar />
           {children}
-          {/* <div className="h-48"></div> */}
         </main>
       </body>
     </html>

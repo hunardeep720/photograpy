@@ -1,7 +1,7 @@
 import React from "react";
 function Hero({ heading, message }) {
   return (
-    <div className="flex justify-center items-center mb-[10rem]  h-screen bg-fixed bg-center bg-cover custom-img z-[10]">
+    <div className="flex justify-center items-center mb-12  h-screen bg-fixed bg-center bg-cover custom-img z-[10]">
       {/* Overlay */}
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/70 z-[2]" />
       <div className="p-5 text-white z-[2] mb-[3rem]">
