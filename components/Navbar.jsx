@@ -39,10 +39,10 @@ function Navbar() {
                     <Link href='/#gallery'>Gallery</Link>
                 </li>
                 <li className='p-4'>
-                    <Link href='/portfolio'>Work</Link>
+                    <Link  href='/Work'>Work</Link>
                 </li>
                 <li className='p-4'>
-                    <Link href='/contact'>Contact</Link>
+                    <Link href='/Contact'>Contact</Link>
                 </li>
             </ul>
             <div className='block sm:hidden z-10'>
@@ -52,17 +52,17 @@ function Navbar() {
             <div className={open? ('sm:hidden absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-end items-center w-44 h-screen bg-black text-center ease-in duration-300 z-[18]'):('sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex flex-col justify-end items-center w-44 h-screen bg-black text-center ease-in duration-300 z-[18]')}>
                 {open? (<AiOutlineClose size={28} className='mb-[13rem] ml-20' onClick={handleOpen} />): (null)}
             <ul  className='mb-[19rem]'>
-                <li className='py-6 text-4xl hover:text-gray-500'>
+                <li onClick={handleOpen} className='py-6 text-4xl hover:text-gray-500'>
                     <Link href='/'>Home</Link>
                 </li>
-                <li className='py-6 text-4xl hover:text-gray-500'>
+                <li onClick={handleOpen} className='py-6 text-4xl hover:text-gray-500'>
                     <Link href='/#gallery'>Gallery</Link>
                 </li>
-                <li className='py-6 text-4xl hover:text-gray-500'>
-                    <Link href='/portfolio'>Work</Link>
+                <li onClick={handleOpen} className='py-6 text-4xl hover:text-gray-500'>
+                    <Link href='/Work'>Work</Link>
                 </li>
-                <li className='py-6 text-4xl hover:text-gray-500'>
-                    <Link href='/contact'>Contact</Link>
+                <li onClick={handleOpen} className='py-6 text-4xl hover:text-gray-500'>
+                    <Link href='/Contact'>Contact</Link>
                 </li>
             </ul>
             </div>
